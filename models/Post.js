@@ -6,6 +6,7 @@ const postSchema = new mongoose.Schema({
     trim: true,
   },
   images: [String],
+  videos: [String],
 });
 
 const Post = mongoose.model("Post", postSchema);
